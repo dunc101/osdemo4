@@ -1,6 +1,6 @@
 node {
     echo "Building ------> build${env.BUILD_NUMBER}"
-    def giturl = "https://github.com/dunc101/osdemo3.git"
+    def giturl = "https://github.com/dunc101/osdemo4.git"
     def pomdirectory = "osdemo4"
     def app = "osdemo4"
     def readinessprobe = "http://localhost:8080/health"
