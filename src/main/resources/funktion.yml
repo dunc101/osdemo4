@@ -1,0 +1,7 @@
+rules:
+  - trigger: http://0.0.0.0:8080/cheese
+    name: thingy
+    action: com.example.Main::cheese
+  - trigger: http://0.0.0.0:8080/cheese2
+    name: thingy2
+    action: com.example.Main::cheese2
